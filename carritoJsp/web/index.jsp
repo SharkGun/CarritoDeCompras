@@ -7,8 +7,6 @@
                     <center>
                         <div style="width: 700px;background-color: blue(232,238,238,0.5);padding: 10px">
             <table border="0" align="center" >
-                
-                
                 <%-- Lista de todos los productos --%>
                 <%
                   ArrayList<Producto> lista = ProductoBD.obtenerProducto();
