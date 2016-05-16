@@ -397,13 +397,13 @@ border-radius:2px;
 .cajaC{
     height: 300px;
     width: 400px;
-    background-color: rgba(232,238,238,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 .cajaD{
     height: 300px;
     width: 600px;
-    background-color: rgba(232,238,238,0.5);
+    background-color: rgba(0,0,0,0.5);
     border-radius: 8px;
 }
 .Productos{
