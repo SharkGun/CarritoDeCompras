@@ -35,8 +35,10 @@
 					<li><a href="registrarVenta.jsp">Registrar Ventas</a></li>
 					<li><a href="consultarVentas.jsp">Consultar Ventas</a></li>
                                         <li ><a href="Logout">Salir</a></li>
+                                        <li class="plataforma"></li>
+                                        <li><h5 style="color: orange;"> <%=user%></h5></li>
                             </ul></div>
-            <div class="perfil"><%=user%></a></div>
+            <!--ul class="plataforma"><h5 style="color: orange;"> <%=user%></h5></a></ul-->
             <div>
             <ul id="nav-mobile" class="side-nav">
                 <li ><a href="index.jsp">Catalogo</a></li>

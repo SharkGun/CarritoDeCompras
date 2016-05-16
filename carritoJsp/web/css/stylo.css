@@ -413,6 +413,14 @@ border-radius:2px;
     border-radius: 8px;
 }
 
-.perfil{
-    background-image: url(imUser/user.jpg) ;
+li.plataforma{
+    background-image: url('../UserPlataforma/user.jpg') ;
+    top:0xp;
+    left: 45px;
+    height: 90px;
+    width: 88px;
+    background-position: 95px -32px;
+    border-radius:69px;
+    box-shadow: #000 0px 0px 14px 1px;
+    
 }
