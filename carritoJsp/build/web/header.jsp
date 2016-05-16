@@ -28,6 +28,7 @@
     <nav class="white">
         <div class="nav-wrapper container-fluid">
                             <div style="margin-left: 15%">
+                                
             <ul class="hide-on-med-and-down" >
               <li ><a href="index.jsp">Catalogo</a></li>
 					<li><a href="registrarProducto.jsp">Registrar Producto</a></li>
@@ -35,6 +36,7 @@
 					<li><a href="consultarVentas.jsp">Consultar Ventas</a></li>
                                         <li ><a href="Logout">Salir</a></li>
                             </ul></div>
+            <div class="perfil"><%=user%></a></div>
             <div>
             <ul id="nav-mobile" class="side-nav">
                 <li ><a href="index.jsp">Catalogo</a></li>

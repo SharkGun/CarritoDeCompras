@@ -235,6 +235,19 @@ PRIMARY KEY (codigoCredito),
 )
 
 
+
+CREATE PROCEDURE spI_detallecredito(
+   _codigoVenta  int , _codigoCredito  int ,
+   _monto  decimal(18, 2) ,_interes  decimal(18, 2)
+)
+BEGIN
+INSERT INTO detallecredito(codigoVenta,codigoCredito,
+   monto,interes)
+VALUES (_codigoVenta,_codigoCredito,_monto, _interes);
+END;
+
+
+
 ------------------Prueba bucle
 
 create procedure prueba(@c int)

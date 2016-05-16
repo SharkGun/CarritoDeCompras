@@ -141,7 +141,13 @@ private void registrarProducto(HttpServletRequest request, HttpServletResponse r
         v.setCliente(user);
         ArrayList<DetalleVenta> detalle  = (ArrayList<DetalleVenta>) session.getAttribute("carrito");
         boolean rpta=VentaBD.insertarVenta(v, detalle);
-       
+       if (rpta) {
+                    //Si inserto lo redireccionamos a otra pagina que se llama "mensaje.jsp"
+                    response.sendRedirect("mensaje.jsp?men=Se registro la venta");
+                } else {
+                    //Si no se inserto lo redireccionamos a otra pagina que se llama "mensaje.jsp"
+                    response.sendRedirect("mensaje.jsp?men=No se registro la venta");
+                }
     }
     
     private void registrarCliente(HttpServletRequest request, HttpServletResponse response)

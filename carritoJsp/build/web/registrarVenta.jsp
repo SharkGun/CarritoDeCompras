@@ -18,14 +18,14 @@
 
 
 <table border="1" align="center" width="400">
-    <tr style="background-color: skyblue; color: black; font-weight: bold">
+    <tr style="background-color: #fff; color: orange; font-weight: bold">
         <td colspan="6">Carrito de Compras</td>
     </tr>
-    <tr style="background-color: purple; color: black; font-weight: bold">
+    <tr style="background-color: orange; font-weight: bold">
         <td>Cliente:</td>
         <td colspan="5"><%=user%></td>
     </tr>
-    <tr style="background-color: purple; color: black; font-weight: bold">
+    <tr style="background-color: orange;  font-weight: bold">
         <td>Nombre</td>
         <td>Precio</td>
         <td>Cantidad</td>

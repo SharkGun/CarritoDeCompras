@@ -412,3 +412,7 @@ border-radius:2px;
     background-color: rgba(232,238,238,0.5);
     border-radius: 8px;
 }
+
+.perfil{
+    background-image: url(imUser/user.jpg) ;
+}
