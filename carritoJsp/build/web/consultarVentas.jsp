@@ -46,7 +46,7 @@
        <p>
        <center>
             <div id="mostrarDato">
-                <iframe name="detalle" width="90%" height="150" frameborder="0" > 
+                <iframe name="detalle" width="90%" height="300" frameborder="0" > 
                 
                 </iframe>
             </div>

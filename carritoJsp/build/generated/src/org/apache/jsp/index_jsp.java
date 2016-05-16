@@ -57,7 +57,6 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html lang=\"en\">\n");
       out.write("<head>\n");
@@ -84,39 +83,16 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
             }
         
       out.write("\n");
-      out.write("<!-- \n");
-      out.write("\t\t\n");
-      out.write("\t\t<div class=\"container\">\n");
-      out.write("                    \n");
-      out.write("                        <nav id=\"navigation\" style=\"background-color: #C0C0C0\">\n");
-      out.write("\t\t\t\t<h1 align=\"center\">CARRITO DE COMPRAS</h1>\n");
-      out.write("                            <ul  class=\"nav nav-pills\" >\n");
-      out.write("\t\t\t\t\t<li role=\"presentation\" class=\"active\"><a href=\"index.jsp\">Catalogo</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"registrarProducto.jsp\">Registrar Producto</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"registrarVenta.jsp\">Registrar Ventas</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"consultarVentas.jsp\">Consultar Ventas</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"logeo2.jsp\">Logueo de usuarios</a></li>\n");
-      out.write("                                </ul>\n");
-      out.write("\t\t\t\t<div class=\"cl\">&nbsp;</div>\n");
-      out.write("\t\t\t</nav>-->\n");
       out.write("    <div class=\" navbar-fixed  \">\n");
       out.write("    <nav class=\"white\">\n");
       out.write("        <div class=\"nav-wrapper container-fluid\">\n");
-      out.write("           \n");
-      out.write("           \n");
       out.write("                            <div style=\"margin-left: 15%\">\n");
-      out.write("                              \n");
-      out.write("                                \n");
       out.write("            <ul class=\"hide-on-med-and-down\" >\n");
-      out.write("                \n");
       out.write("              <li ><a href=\"index.jsp\">Catalogo</a></li>\n");
       out.write("\t\t\t\t\t<li><a href=\"registrarProducto.jsp\">Registrar Producto</a></li>\n");
       out.write("\t\t\t\t\t<li><a href=\"registrarVenta.jsp\">Registrar Ventas</a></li>\n");
       out.write("\t\t\t\t\t<li><a href=\"consultarVentas.jsp\">Consultar Ventas</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"logeo.jsp\">Logueo de usuarios</a></li>\n");
       out.write("                                        <li ><a href=\"Logout\">Salir</a></li>\n");
-      out.write("               \n");
-      out.write("\n");
       out.write("                            </ul></div>\n");
       out.write("            <div>\n");
       out.write("            <ul id=\"nav-mobile\" class=\"side-nav\">\n");
@@ -124,31 +100,20 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t<li><a href=\"registrarProducto.jsp\">Registrar Producto</a></li>\n");
       out.write("\t\t\t\t\t<li><a href=\"registrarVenta.jsp\">Registrar Ventas</a></li>\n");
       out.write("\t\t\t\t\t<li><a href=\"consultarVentas.jsp\">Consultar Ventas</a></li>\n");
-      out.write("\t\t\t\t\t<li><a href=\"\">Logueo de usuarios</a></li>\n");
-      out.write("                \n");
+      out.write("\t\t\t\t\t<li><a href=\"Logout\">Salir</a></li>\n");
       out.write("            </ul>\n");
-      out.write("\n");
       out.write("            <a href=\"#\" data-activates=\"nav-mobile\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>\n");
       out.write("        </div>\n");
       out.write("    </nav>\n");
-      out.write("    \n");
       out.write("</div>\n");
-      out.write("       \n");
-      out.write("        \n");
       out.write("        <center>\n");
       out.write("\r\n");
-      out.write("                    <h2 align=\"center\">Lista de Productos</h2>\r\n");
+      out.write("                    <h3 align=\"center\">Lista de Productos</h3>\r\n");
       out.write("                    <style type=\"text/css\">\r\n");
-      out.write("     body {\r\n");
-      out.write("\t\tbackground-image: url(\"extras/descarga.jpg\");\r\n");
-      out.write("\t\t\r\n");
-      out.write("\t}\r\n");
       out.write("        </style>\r\n");
       out.write("                    <center>\r\n");
       out.write("                        <div style=\"width: 700px;background-color: blue(232,238,238,0.5);padding: 10px\">\r\n");
       out.write("            <table border=\"0\" align=\"center\" >\r\n");
-      out.write("                \r\n");
-      out.write("                \r\n");
       out.write("                ");
       out.write("\r\n");
       out.write("                ");
@@ -159,13 +124,13 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
                 
       out.write("\r\n");
       out.write("                \r\n");
-      out.write("                    <th><img src=\"imagenes/");
+      out.write("                    <th ><img src=\"imagenes/");
       out.print(p.getImagen());
-      out.write("\" width=\"140\" height=\"140\"><p>\r\n");
+      out.write("\" class=\"Productos\"><p>\r\n");
       out.write("                    ");
       out.print( p.getNombre());
       out.write("<br>\r\n");
-      out.write("                    ");
+      out.write("                    S/ ");
       out.print( p.getPrecio());
       out.write("<p>\r\n");
       out.write("                    ");
@@ -182,7 +147,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                ");
 
                 salto++;
-                if(salto==3){
+                if(salto==4){
                     
       out.write("\r\n");
       out.write("                    <tr> \r\n");
@@ -220,7 +185,6 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write(" \n");
       out.write("<script src=\"js/code.jquery.com_jquery-2.1.1.min.js\" type=\"text/javascript\"></script>\n");
       out.write("        <script src=\"materialize/js/materialize.min.js\" type=\"text/javascript\"></script>\n");
-      out.write("        \n");
       out.write("        <script src=\"js/init.js\" type=\"text/javascript\"></script>\n");
       out.write("</body>\n");
       out.write("</html>");
