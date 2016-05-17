@@ -413,14 +413,27 @@ border-radius:2px;
     border-radius: 8px;
 }
 
-li.plataforma{
-    background-image: url('../UserPlataforma/user.jpg') ;
-    top:0xp;
+div.plataforma{
+    background-image: url('../UserPlataforma/user.jpg');
+    clear:both;
+    top:10px;
     left: 45px;
-    height: 90px;
-    width: 88px;
-    background-position: 95px -32px;
+    height: 67px;
+    width: 67px;
+    background-position: 72px -25px;
     border-radius:69px;
-    box-shadow: #000 0px 0px 14px 1px;
-    
+    /*--box-shadow: #000 0px 0px 14px 1px;--*/
+}
+h5.nameuser{
+    border-radius: 5px;
+    color: orange;
+    background: #fff;
+    clear:both;
+    box-shadow: #fff 0px 0px 14px 1px;
+}
+td.arrowproducto{
+    background-image: url('../UserPlataforma/User.png');
+    height: 100px;
+    width: 100px;
+    border-radius:0px;
 }

@@ -7,10 +7,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-	<title>Carrito  <%=session.getAttribute("gAppTitle") %></title>
+	<title>Proyecto <%=session.getAttribute("gAppTitle") %></title>
         <link href="materialize/css/materialize.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style12.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/icono.css" rel="stylesheet" type="text/css"/>
+        <!--link href="css/icono.css" rel="stylesheet" type="text/css"/-->
         <link href="css/stylo.css" rel="stylesheet" type="text/css"/>
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -28,18 +28,20 @@
     <nav class="white">
         <div class="nav-wrapper container-fluid">
                             <div style="margin-left: 15%">
-                                
             <ul class="hide-on-med-and-down" >
               <li ><a href="index.jsp">Catalogo</a></li>
 					<li><a href="registrarProducto.jsp">Registrar Producto</a></li>
 					<li><a href="registrarVenta.jsp">Registrar Ventas</a></li>
 					<li><a href="consultarVentas.jsp">Consultar Ventas</a></li>
+                                        <li><a href="Reportes.jsp">Reportes</a></li>
+                                        <li></li>
                                         <li ><a href="Logout">Salir</a></li>
-                                        <li class="plataforma"></li>
-                                        <li><h5 style="color: orange;"> <%=user%></h5></li>
                             </ul></div>
             <!--ul class="plataforma"><h5 style="color: orange;"> <%=user%></h5></a></ul-->
             <div>
+                <div class="plataforma"><br>
+                   <h5 class="nameuser"> <%=user%></h5>
+                </div>
             <ul id="nav-mobile" class="side-nav">
                 <li ><a href="index.jsp">Catalogo</a></li>
 					<li><a href="registrarProducto.jsp">Registrar Producto</a></li>

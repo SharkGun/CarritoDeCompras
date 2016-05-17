@@ -4,7 +4,7 @@
 		  <div class="main">
 
 			  <div class="featured">
-				<h4> <strong>Confirmar Registro</strong> </h4>
+				<h4> <strong>Guardado</strong> </h4>
 				</div>
 			  <div id="centro">
         <h3 align="center">
@@ -13,10 +13,10 @@
                 out.println(request.getParameter("men"));
             }
             
-            %>
+            %></h3>
             <br>
-            <a href="index.jsp">Volver a Principal</a>
-        </h3>
+            <a class="btn" href="index.jsp">Regresar</a>
+        
     </div>
 			<!-- end of main -->
 			<div class="cl">&nbsp;</div>

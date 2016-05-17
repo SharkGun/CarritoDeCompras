@@ -69,7 +69,7 @@
 </table>
 </form>
 </div>
-    <h4 align="center"><a class="btn" href="index.jsp">Seguir Comprando</a></h4>
+    <a class="btn" href="index.jsp">Mas Compra</a>
   </div>
 			</div>
 			<!-- end of main -->
